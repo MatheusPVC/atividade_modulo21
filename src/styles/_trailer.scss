@@ -1,0 +1,15 @@
+.trailer {
+    padding: 5vw;
+    min-height: 80vh;
+    text-align: center;
+    &__video {
+        iframe {
+            height: 70vh;
+            width: 60vw;
+        }
+    }
+
+    &__title {
+        padding-bottom: 20px;
+    }
+}
