@@ -4,11 +4,14 @@
     text-align: center;
     &__video {
         iframe {
-            height: 70vh;
-            width: 60vw;
+            height: 80vh;
+            width: 70vw;
+            @media (max-width:920px) {
+                width: 80vw;
+                height: 40vh;
+            }
         }
     }
-
     &__title {
         padding-bottom: 20px;
     }

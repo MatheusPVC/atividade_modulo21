@@ -2,6 +2,9 @@
 
 @use 'hero';
 @use 'trailer';
+@use 'suggestions';
+@use 'footer';
+@use 'header';
 
 @font-face {
     font-family: Amcap;
@@ -23,8 +26,4 @@ body {
 
 h1 {
     font-family: Amcap, sans-serif;
-}
-
-.text {
-    color: variaveis.$textColor;
 }

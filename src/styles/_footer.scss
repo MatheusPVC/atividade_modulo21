@@ -1,0 +1,30 @@
+@use 'variaveis';
+
+.footer {
+    padding: 26px 8px;
+    min-height: 10vh;
+    background-color: variaveis.$primaryColor;
+    text-align: center;
+    display: block;
+
+    &__links {
+        display: flex;
+        color: white;
+        justify-content: space-around;
+        max-width: 180px;
+        text-align: center;
+        margin: 0 auto 16px;
+        &__item {
+            list-style: none;
+            transition: all ease .5s;
+            img {
+                max-height: 24px;
+                height: 24px;
+            }
+
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}
